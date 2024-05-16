@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={ExampleFont.className}>
+      <body >
        <QueryClientProvider>{children}</QueryClientProvider>
       </body>
     </html>
